@@ -19,7 +19,7 @@ The raw dataset required extensive cleaning due to:
 - Inconsistent naming conventions
 - Outliers in price values
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 - Removed invalid and missing values
 - Converted text-based numerical columns to integers
 - Standardized car names to reduce categorical noise
@@ -27,7 +27,7 @@ The raw dataset required extensive cleaning due to:
 
 ---
 
-## 🧠 Approach
+## Approach
 - Exploratory Data Analysis (EDA)
 - Feature engineering and selection
 - One-Hot Encoding for categorical variables
@@ -36,12 +36,12 @@ The raw dataset required extensive cleaning due to:
 - Model evaluation using **R² score**
 - Model serialization using **pickle**
 
-## 📈 Model Performance
+## Model Performance
 - **Best R² Score:** ~0.89 on test data
 
 ---
 
-## 🔍 Sample Prediction
+##  Sample Prediction
 **Input:**
 ```python
 ['Maruti Suzuki Swift', 'Maruti', 2019, 100, 'Petrol']
